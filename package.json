@@ -1,0 +1,33 @@
+{
+  "name": "keyword-wrangler",
+  "version": "0.0.1",
+  "description": "A tool to manage keywords",
+  "main": "src/backend/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuma0605/keyword-wrangler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuma0605/keyword-wrangler/issues"
+  },
+  "homepage": "https://github.com/kuma0605/keyword-wrangler#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "bower": "^1.8.0",
+    "db-migrate": "^0.9.26",
+    "express": "^4.15.4",
+    "mysql": "^2.12.0",
+    "node-dbi": "^0.7.1",
+    "percolator": "^1.5.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "request": "^2.79.0",
+    "sqlite3": "^3.1.8"
+  }
+}
