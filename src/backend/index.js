@@ -1,7 +1,7 @@
 'use strict';
 
 var Percolator = require('percolator').Percolator;
-var dbSession = require('../../src/backend/dbSession.js');
+var dbSession = require('./dbSession.js');
 
 var port = 8080;
 var server = Percolator({'port': port, 'autoLink': false});

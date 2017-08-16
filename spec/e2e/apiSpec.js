@@ -48,12 +48,12 @@ describe('The API', function() {
                 {
                     'url':'http://localhost:8080/api/keywords/',
                     'json':true
-                }),
+                },
                 function(err, res, body){
                     expect(res.statusCode).toBe(200);
                     expect(body).toEqual(expected);
                     done();
-                }
+                })
             }
         );
 
